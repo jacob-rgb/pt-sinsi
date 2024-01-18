@@ -1,0 +1,21 @@
+.p-tabview {
+    width: 100%;
+}
+
+.p-tabview-panels {
+    height: calc(100vh - 260px);
+    overflow-y: auto;
+}
+
+.container-title {
+    height: 195px;
+    > div {
+        height: 50px;
+    }
+}
+
+.mode {
+    &_pie {
+        // width: 70%;
+    }
+}

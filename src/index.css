@@ -1,0 +1,46 @@
+
+
+body, html, #root {
+  width: 100%;
+  width: 100dvw;
+  height: 100%;
+  height: 100svh;
+  overflow: hidden;
+  display: flex;
+  margin: 0;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-height: 100%;
+  max-height: 100svh;
+  width: 100%;
+  width: 100svw;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  margin: 6px 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+  margin: 6px 0;
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #06b6d4; 
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0891b2; 
+}
